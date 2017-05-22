@@ -1,5 +1,4 @@
 <?php
-
 $motch = rand(1, 12);
 $motch = 4;
 switch ($motch){
@@ -14,7 +13,9 @@ switch ($motch){
         break;
     default;
         echo 'XX';
-}<?php
+}
+
+
 /**
  * Created by PhpStorm.
  * User: user
