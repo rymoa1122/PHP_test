@@ -1,5 +1,7 @@
 <table width="100%" border="1">
+
     <?php
+
 
     $start = 2; $col =4 ; $lien=4;
     for ($row = 0; $row<$lien; $row++) {

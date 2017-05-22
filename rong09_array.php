@@ -1,4 +1,5 @@
 <?php
+
 $a[0] = 12;
 $a[7] = 'Bard';
 echo gettype($a);

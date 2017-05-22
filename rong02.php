@@ -1,4 +1,5 @@
 <?php
+
 if(isset($x = $_GET['xx']))
 {
     $x = $_GET['xx'];
