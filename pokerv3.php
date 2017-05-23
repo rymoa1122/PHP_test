@@ -30,5 +30,6 @@ shuffle($poker);
           echo '</tr>';
       }
   ?>
+      
   </table>
 
