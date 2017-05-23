@@ -21,9 +21,11 @@ if (isset($_GET['twid'])) {
             +$n5 *6 +$n6 *5+$n7 *4 +$n8 *3 +$n9 *2 + $n10 *1 + $n11 *1;
         if ($sum % 10 ==0 ){
             echo 'OK';
+        }else{
+            echo 'XX';
         }
     }else{
-    echo 'XX';
+        echo 'XX';
     }
 }
 
