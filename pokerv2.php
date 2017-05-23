@@ -14,5 +14,6 @@ for ($i = 0; $i < 52 ; $i++) {
           $isRepeat=true;
     }
     } while ($isRepeat);
+
       echo $poker[$i] . '<br>';
 }
