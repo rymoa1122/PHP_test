@@ -5,7 +5,6 @@ $number = 0;
 define("MAX", "100");
 define("MIN", "1");
 
-
 //echo "This is homework for php done by Anne on April 29.<br/>";
 do {
     if ($number > MIN) {
