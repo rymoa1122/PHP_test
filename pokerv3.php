@@ -4,7 +4,6 @@ shuffle($poker);
 //foreach ($poker as $card) {
 //    echo $card . '<br>';
 //}
-
   echo '<hr>' ; //發到四個玩家
 
   foreach ($poker as $i =>$value){
@@ -30,6 +29,6 @@ shuffle($poker);
           echo '</tr>';
       }
   ?>
-      
+
   </table>
 

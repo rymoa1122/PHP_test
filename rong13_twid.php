@@ -8,7 +8,6 @@
 }
 
 ?>
-
 <form>
     <input type="text" name="twid" />
     <input type="submit" value="check" />
