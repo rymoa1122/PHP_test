@@ -8,8 +8,9 @@ for ($i = 0; $i < 52 ; $i++) {
         $isRepeat = false;
         $temp = rand (0, 51);
         if(!$check[$temp]){
-        $check[$temp]=true;
-        }
+            $poker[]=$temp;
+            $check[$temp]=true;
+                }
          else{
           $isRepeat=true;
     }
