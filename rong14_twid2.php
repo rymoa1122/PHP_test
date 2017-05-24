@@ -1,10 +1,11 @@
-<?php
+ <?php
 if (isset($_GET['twid'])) {
     $twid = $_GET['twid'];
     if(preg_match('/^[A-Z][12][0-9]{8}$/', $twid)>0){
         $n12s = substr($twid , 0 , 1);
 
         $letters = 'ABCDEFGHJKLMNPORSTUVXYWZIO';
+        
         $n12 = strpos($letters , $n12s) + 10;
         $n1 = (int)($n12 / 10);
         $n2 = $n12 % 10;
