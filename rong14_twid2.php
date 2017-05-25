@@ -5,7 +5,7 @@ if (isset($_GET['twid'])) {
         $n12s = substr($twid , 0 , 1);
 
         $letters = 'ABCDEFGHJKLMNPORSTUVXYWZIO';
-        
+
         $n12 = strpos($letters , $n12s) + 10;
         $n1 = (int)($n12 / 10);
         $n2 = $n12 % 10;
