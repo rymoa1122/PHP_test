@@ -22,4 +22,7 @@ $myBike ->upSpeed();$myBike->upSpeed();$myBike->upSpeed();$myBike->upSpeed();
 $myBike ->downSpeed();
 
 $urBike->upSpeed();$urBike->upSpeed();$urBike->upSpeed();$urBike->upSpeed();$urBike->upSpeed();
-$uyBike->downSpeed();
+$urBike->downSpeed();
+
+echo "My Bike = {$myBike->getSpeed()}<br>";
+echo "Uy Bike = {$urBike->getSpeed()}";
