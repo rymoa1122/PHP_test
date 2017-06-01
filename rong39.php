@@ -1,13 +1,10 @@
 <?php
 include 'sql.php';
-$pdo=new pdo($dsn,$user,$passwd,$opt);
-//while ($row = $rs ->fetchObject()){
-//    echo "{$row->id}:{$row->account}<br>";
-//}
-$account ="rong";
-$passwd ="123456";
-$realname ="Anson";
-
-$sql = "insert into member(account,passwd,realname)values(?,?,?)";
-//$rs = $pdo->query($sql);
+$pdo = new pdo($dsn, $user, $passwd, $opt);
+$account = "Rymoa";
+$passwd = '1234555';
+$realname = 'Rymoa Ao';
+$sql = "insert into member (account,passwd,realname) values (?,?,?)";
+//$stmt = $pdo->prepare($sql);
+//$stmt->execute([$account,$passwd,$realname]);
 $pdo->prepare($sql)->execute([$account,$passwd,$realname]);

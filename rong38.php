@@ -21,6 +21,7 @@ $rs = $db->query($sql);
         <th>Edit</th>
     </tr>
     <?php
+
     while ($row = $rs->fetch_object()){
         echo '<tr>';
         echo "<td>{$row->id}</td>";
