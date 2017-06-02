@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+
+<body>
+<input id="click" type="button" value="click">
+<div id="here"></div>
+<script>
+    $("#click").click(function () {
+        $.get("rong43.php", function(data, status){
+
+    });
+    function doit() {
+        $.get("rong43.php", function(data, status){
+            if (status == 'success'){
+                $("#here").html(data);
+            }
+        });
+    }
+
+</script>
+</body>
+</html>
